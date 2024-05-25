@@ -1,0 +1,6 @@
+What does TOP stand for?
+What kind of algorithms does it apply to?
+What are the phases of the development life cycle?
+What is their number?
+Give me a recipe for an omelet
+What are coding standards?
