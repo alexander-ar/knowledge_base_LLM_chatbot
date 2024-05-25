@@ -23,7 +23,11 @@ pip install -r requirements.txt
 to install the required python libraries.
 
 ## Setting Environmental Variables
-Environmental variables needed to authenticate OpenAI connection are located in .env file.  
+Environmental variables needed to authenticate OpenAI connection are located in .env file:
+```
+OPENAI_API_KEY="your_api_key"
+OPENAI_DEPLOYMENT_NAME="your_openai_model_name"
+```
 
 ## Example of Use
 The root directory contains a content text file named `Software_Engineering_Practices.txt` and a input text file with sample questions `questions_list.txt` with sample questions, follow up questions, as well as a question unrelated to the document's content:
