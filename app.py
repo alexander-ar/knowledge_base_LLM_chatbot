@@ -162,6 +162,7 @@ def main(input_text_file, input_question_file):
             # Process each line
             new_user_question = line
             response = answer_question(q = new_user_question, chain = crc)
+            print(f"Answering question {question_counter}: {new_user_question}")
             # print the response
             print(f"Answer to question {question_counter}: \n")
             print(response, "\n")

@@ -1,7 +1,6 @@
 openai
 python-dotenv
 argparse
-tempfile
 langchain
 langchain_openai
 langchain-community

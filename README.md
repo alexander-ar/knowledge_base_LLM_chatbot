@@ -10,7 +10,7 @@ For additional requirements,  app is designed to handle multiple questions about
 ## How to Run This Application
 The code for this application is contained in the root directory - file `app.py`.  This application is designed to run from command line.  Navigate to the folder where the app.py is saved and then run:
 ```
-python3 app.py --content_text_file "path_to_file/content_file.txt" --question_text_file "path_to_file/questions_file.txt" 
+python app.py --content_text_file path_to_file/content_file.txt --question_text_file path_to_file/questions_file.txt 
 
 ```
 where `path_to_file/content_file.txt` should be the location for the file with content and `path_to_file/questions_file.txt` is a path to text file containing user's questions (one question per line).
@@ -18,7 +18,7 @@ where `path_to_file/content_file.txt` should be the location for the file with c
 ## Application Dependencies
 The dependencies for this application are described in the `requirements.txt` file located in the root directory.  From the same directory, from the command line run:
 ```
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 to install the required python libraries.
 
