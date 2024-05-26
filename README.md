@@ -27,6 +27,7 @@ Environmental variables needed to authenticate OpenAI connection are located in 
 ```
 OPENAI_API_KEY="your_api_key"
 OPENAI_DEPLOYMENT_NAME="your_openai_model_name"
+
 ```
 
 ## Example of Use
